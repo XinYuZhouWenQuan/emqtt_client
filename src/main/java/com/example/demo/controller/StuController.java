@@ -41,6 +41,11 @@ public class StuController {
         return "HELLO ACTIONS";
     }
 
+    @GetMapping("/get2")
+    public String f3(){
+        return "HELLO ACTIONS";
+    }
+
     @GetMapping(value = "/update")
     public void update(){
     }
